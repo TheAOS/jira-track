@@ -1,0 +1,8 @@
+{
+    "username": "user",
+    "password": "pass",
+    "url": "https://jira-instance/",
+    "filter": 11205,
+    "wip_limit": 7,
+    "wait_time_s": 10
+}
