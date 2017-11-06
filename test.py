@@ -1,9 +1,7 @@
 from track import Tracker
+from datetime import datetime
 
-def pass_callback():
-    print('pass')
+def callback(success):
+    print (success)
 
-def fail_callback():
-    print('fail')
-
-Tracker('config.json', pass_callback, fail_callback).run()
+Tracker('config.json', callback).run()
